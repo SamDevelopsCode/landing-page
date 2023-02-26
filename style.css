@@ -20,7 +20,6 @@ button {
 }
 
 .container {
-    border: 3px dotted #fc0303;
 }
 
 .item {
@@ -121,6 +120,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 16px;
+    background-color: #E5E7eb;
 }
 
 .quote-text {
@@ -131,18 +131,34 @@ a {
 
 .quote-signature {
     display: flex;
+    font-size: small;
     font-weight: 900;
     width: 600px;
     flex-direction: row-reverse;
+    margin-top: 8px;
 }
 
-.content-container-3 {
+.section-3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
-    padding: 16px;
+    height: 500px;
+    padding: 48px;
+}
+
+.section-3-background {
+    background-color: #3882F6;
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
     gap: 48px;
+    border-radius: 4px;
+}
+
+
+.signup-buttton {
+    background-color: #cadefd;
 }
 
 .container-3-title {
@@ -157,12 +173,11 @@ a {
     display: flex;
     justify-content: center;
     padding: 8px;
+    background-color: #1F2937;
 }
 
 .copyright-text {
     font-size: x-small;
 }
 
-.newsletter-button {
-    border: 3px solid white;
-}
+
