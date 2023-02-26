@@ -14,6 +14,9 @@ img {
 button {
     width: 100px;
     height: 25px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: white;
 }
 
 .container {
@@ -22,6 +25,10 @@ button {
 
 .item {
     border: 3px solid #4aeb00;
+}
+
+.white-text {
+    color: white;
 }
 
 .title {
@@ -37,6 +44,7 @@ button {
 .header-container-1 {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
 }
 
 .header-container-2 {
@@ -46,23 +54,29 @@ button {
 }
 
 .header-container-3 {
-    width: 400px
+    width: 400px;
+    gap: 8px;
 }
 
 .header-logo {
     font-size: large;
+    margin-top: 8px;
 }
 
 .header-image {
     width: 400px;
-    height: 160px;
+    height: 180px;
+}
+
+.seed-button {
+    margin-top: 8px;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin-top: 8px;
     gap: 32px
 }
 
@@ -78,12 +92,14 @@ a {
     text-align: center;
     font-size: large;
     font-weight: 700;
+    margin: 16px;
 }
 
-.content-container-1-sub {
+.content-container-1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 32px;
     gap: 32px;
 }
 
@@ -93,7 +109,7 @@ a {
 }
 
 .image-text {
-    font-size: small;
+    font-size: x-small;
     width: 100px;
     flex-wrap: wrap;
 }
@@ -145,4 +161,8 @@ a {
 
 .copyright-text {
     font-size: x-small;
+}
+
+.newsletter-button {
+    border: 3px solid white;
 }
