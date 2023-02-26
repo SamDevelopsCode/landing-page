@@ -6,6 +6,11 @@ body {
     justify-content: space-between;
 }
 
+img {
+    width: 100px;
+    height: 100px;
+}
+
 .container {
     border: 3px dotted #fc0303;
 }
@@ -44,6 +49,7 @@ body {
 
 .header-image {
     width: 400px;
+    height: 155px;
 }
 
 ul {
@@ -68,5 +74,38 @@ a {
 
 .content-container-1-sub {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.combo {
+    display: flex;
     flex-direction: column;
+}
+
+.image-text {
+    font-size: small;
+    width: 100px;
+    flex-wrap: wrap;
+}
+
+.content-container-2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: larger;
+    width: 600px;
+}
+
+.quote-signature {
+    display: flex;
+    font-weight: 900;
+    width: 600px;
+    flex-direction: row-reverse;
 }
